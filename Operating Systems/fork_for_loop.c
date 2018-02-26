@@ -12,8 +12,8 @@ int childCount = 0;
 int main() {
     int pid;
 
-    // for(int i=0; i<10; i++){
-    while(1){
+    for(int i=0; i<10; i++){
+    // while(1){
         pid = fork();
         if(pid == -1) break;
         if(pid == 0){
